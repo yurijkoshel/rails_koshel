@@ -19,11 +19,11 @@ Product.where(name:'TV')
 Product.where('price <?',100)
 
 
-# All products in a cart for some account
-Product.all
+#Get all products from cart
+Account.first.cart.products.all
 
-# Total sum of products in cart for account
-Product.sum(:price)
+#Get total sum
+Account.first.cart.products.sum(:price)
 
 
 
