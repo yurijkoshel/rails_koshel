@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bff4963a-fb60-4026-9db6-bf3a36a6d32d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/account.rb" afterPath="$PROJECT_DIR$/app/models/account.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/cart.rb" afterPath="$PROJECT_DIR$/app/models/cart.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples.rb" afterPath="$PROJECT_DIR$/examples.rb" />
     </list>
     <ignored path="rails_koshel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,8 +115,8 @@
       <file leaf-file-name="cart.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/cart.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -629,12 +626,12 @@
       <workItem from="1464869093662" duration="4135000" />
       <workItem from="1465124780051" duration="1437000" />
       <workItem from="1465202620032" duration="6706000" />
-      <workItem from="1465421772544" duration="40649000" />
+      <workItem from="1465421772544" duration="41520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52927000" />
+    <option name="totallyTimeSpent" value="53798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1295" height="640" extended-state="6" />
@@ -956,14 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/account.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/product.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -980,10 +969,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/account.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/cart.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding />
         </state>
       </provider>
