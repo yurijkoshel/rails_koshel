@@ -1,0 +1,21 @@
+<h1>Edit product</h1>
+
+<%= form_for(@product) do |f| %>
+ <%= f.label :name %>
+ <%= f.text_field :name %>
+ <br/>
+ <%= f.label :description %>
+ <%= f.text_field :description %>
+ <br/>
+ <%= f.submit%>
+<% end %>
+
+
+<%= form_tag "products/#{@product.id}" %>
+<%= label_tag 'name' %>
+<%= text_field_tag 'name' %>
+<br/>
+<%= label_tag 'description' %>
+<%= text_field_tag 'description' %>
+<br/>
+<%= submit_tag 'Update product' %>

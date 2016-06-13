@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :products, only: [:index, :new, create:action]
+  resources :products, only: [:index, :new, :create, :edit, :update]
 
   resources :accounts
   # The priority is based upon order of creation: first created -> highest priority.
